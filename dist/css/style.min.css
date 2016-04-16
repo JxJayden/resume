@@ -2,7 +2,7 @@
 .sidebar,
 .sidebar a,
 aside a {
-    color: #fff
+    color: #fff;
 }
 
 .title,
@@ -23,7 +23,7 @@ body {
 
 .sidebar,
 aside li {
-    background: #4F7FE8
+    background: #4F7FE8;
 }
 
 li,
@@ -57,8 +57,8 @@ aside li {
     margin-bottom: 10px;
     -webkit-border-radius: 10px 0 0 10px;
     border-radius: 10px 0 0 10px;
-    -webkit-box-shadow: 1px 2px 7px #BCBCBC;
-    box-shadow: 1px 2px 7px #BCBCBC
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12)
 }
 
 aside a {
@@ -72,8 +72,8 @@ aside a {
 .container {
     position: relative;
     margin: 10px auto;
-    -webkit-box-shadow: 1px 2px 7px #BCBCBC;
-    box-shadow: 1px 2px 7px #BCBCBC;
+    -webkit-box-shadow:0px 1px 7px #BCBCBC;
+    box-shadow: 0px 1px 7px #BCBCBC;
     width: 1060px;
     overflow: hidden;
     -webkit-border-radius: 4px;
@@ -196,7 +196,7 @@ h2 {
 .main-info dd {
     font-size: 15px;
     line-height: 27px;
-    color: #616161
+    color: #616161;
 }
 
 h4,
