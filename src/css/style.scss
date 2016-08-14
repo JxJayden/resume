@@ -46,6 +46,7 @@ p {
     cursor: default
 }
 header {
+ display: none;
         height: 50px;
         width: 100%;
         position: fixed;
@@ -69,7 +70,6 @@ header {
         color: #2EA9DF
     }
     aside {
-     display: none;
         height: 60px;
         position: fixed;
         right: 0;
@@ -94,7 +94,6 @@ header {
 .container {
     position: relative;
     margin: 10px auto;
-    margin-top: 65px;
     -webkit-box-shadow: 0 2px 7px #BCBCBC;
     box-shadow: 0 2px 7px #BCBCBC;
     width: 1060px;
@@ -347,29 +346,14 @@ footer p {
     }
 }
 
-@media all and (min-width: 415px) and (max-width: 770px){
+@media (max-width: 415px) and (min-width: 768px){
     header{
-        display: none;
-    }
-    .container {
-        margin-top: 10px
-    }
-    aside {
         display: block;
-        z-index: 3
-    }
-}
-@media all and (max-width: 415px){
-    header{
-        display: none;
     }
     .container {
-        margin-top: 10px
+        margin-top: 65px
     }
     aside {
         display: none;
-    }
-    img{
-     display: none;
     }
 }
